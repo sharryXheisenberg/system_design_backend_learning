@@ -1,4 +1,4 @@
-## A simple websocket-chat-app
+## A simple websocket-chat-app (between server and client only)
 The application is a real-time chat system using WebSockets, allowing two (or more) clients to exchange text messages. This design focuses on simplicity for beginners while incorporating professional engineering practices like modularity, error handling, and basic security (e.g., input validation). It's not just a bare-bones echo server; it includes features like user authentication via usernames, message broadcasting with timestamps, and connection/disconnection notifications to mimic a "real engineering job" (e.g., a basic collaborative tool or live support chat). This can be shown to others as a scalable starting point for more complex apps like binary file transfers (as you mentioned for future chats).
 
 #### **Key Components**
