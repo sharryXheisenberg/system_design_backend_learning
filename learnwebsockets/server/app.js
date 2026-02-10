@@ -24,6 +24,9 @@ app.get("/", (req, res) => {
 io.on("connection", (socket) => {
   console.log("User connected");
   console.log("Id", socket.id);
+  socket.on("disconnet", () => {
+    console.log(`User is disconnected ${socket.id}`);
+  });
 });
 
 server.listen(PORT, () => {
